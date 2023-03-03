@@ -32,3 +32,30 @@ Mas e quais as informações, que obtemos através de classes documentadas, na l
 **Javadoc** é um gerador de documentação criado pela [Sun Microsystems](https://pt.wikipedia.org/wiki/Sun_Microsystems) , para documentar a [API](https://pt.wikipedia.org/wiki/API) dos programas em [Java](https://pt.wikipedia.org/wiki/Linguagem_de_programação_Java), a partir do [código-fonte](https://pt.wikipedia.org/wiki/Código-fonte). O resultado é expresso em [HTML](https://pt.wikipedia.org/wiki/HTML). É constituído, basicamente, por algumas marcações muitos simples, inseridas nos comentários do programa.
 
 Este sistema, é o padrão de documentação de classes em Java, onde muitas das [IDEs](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado) desta linguagem irão automaticamente gerar um Javadoc em [HTML](https://pt.wikipedia.org/wiki/HTML).
+
+### Entendendo a sintaxe
+
+A estrutura básica de um comentário de documentação tem como característica principal, o uso de uma barra e dois asteriscos /** no início e no seu final, possui um asterisco e uma barra */. Veja as **listagens 01** e **02**.
+
+```
+/** Exemplo básico de um comentário em JavaDoc */
+```
+
+**Listagem 01**. Uma linha
+
+```
+/** Exemplo básico de um comentário em JavaDoc
+ * com mais de uma linha.
+ */
+```
+
+**Listagem 02**. Várias linhas
+
+Por convenção, como comentei anteriormente, sugere-se alocar os blocos de comentários, antes da definição de uma classe, interface, atributos, ou métodos, dessa forma, criamos uma introdução conceitual ao referido elemento do código
+
+
+
+Fontes:https://glysns.gitbook.io/java-basico/sintaxe/documentacao
+
+https://www.devmedia.com.br/javadoc-implementando-documentacao-atraves-do-netbeans/2495
+
