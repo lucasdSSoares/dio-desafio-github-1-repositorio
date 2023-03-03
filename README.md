@@ -1,5 +1,6 @@
-# Desafio de Projeto sobre Git/Github
-Repositório criado para o Desafio de Projeto.
+#Git and GitHUB Project challenge
 
-## Links úteis
+This repository was created to the Project challange.
+
+## Links
 [Sintaxe básica Markdown](https://www.markdownguide.org/basic-syntax/)
